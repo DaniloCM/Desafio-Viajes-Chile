@@ -1,0 +1,15 @@
+* {
+    font-family: 'Raleway';
+    background-color: black;
+}
+
+/* Navbar */
+.navbar {
+    position: fixed;
+    z-index: 1;
+    width: 100vw;
+}
+
+#logo-nav {
+    height: 25px;
+}
