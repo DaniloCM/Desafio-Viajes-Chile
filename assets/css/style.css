@@ -16,3 +16,14 @@
 .navbar-nav {
     font-weight: 300;
 }
+
+
+/* Nosotros */
+#nosotros-section {
+    background-color: black;
+    font-weight: 300;
+}
+
+#nosotros-section h1{
+    font-weight: 300;
+}
