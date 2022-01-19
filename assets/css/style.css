@@ -1,6 +1,5 @@
 * {
     font-family: 'Raleway';
-    background-color: black;
 }
 
 /* Navbar */
@@ -12,4 +11,8 @@
 
 #logo-nav {
     height: 25px;
+}
+
+.navbar-nav {
+    font-weight: 300;
 }
