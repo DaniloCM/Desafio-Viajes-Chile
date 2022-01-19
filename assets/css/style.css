@@ -2,6 +2,10 @@
     font-family: 'Raleway';
 }
 
+h1 {
+    font-weight: 300;
+}
+
 /* Navbar */
 .navbar {
     position: fixed;
@@ -24,6 +28,9 @@
     font-weight: 300;
 }
 
-#nosotros-section h1{
+
+/* Destacados */
+#destacados-section {
+    background-color: black;
     font-weight: 300;
 }
