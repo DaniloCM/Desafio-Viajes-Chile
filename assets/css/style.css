@@ -38,6 +38,10 @@ h1 {
     font-weight: 300;
 }
 
+#destacados-section .card {
+    cursor: pointer;
+}
+
 
 /* Contacto */
 #contacto-section {
@@ -51,4 +55,32 @@ footer a {
     color: #fff;
     text-decoration: none;
     display: inline;
+}
+
+
+/* Tooltips */
+/* Cambia el color del fondo de los tooltips de negro a blanco */
+.tooltip.show {
+    opacity: 1;
+}
+
+.tooltip-inner {
+    background-color: #fff;
+    color: #000;
+}
+
+.tooltip.bs-tooltip-right .tooltip-arrow:before {
+    border-right-color: #fff !important;
+}
+
+.tooltip.bs-tooltip-left .tooltip-arrow:before {
+    border-left-color: #fff !important;
+}
+
+.tooltip.bs-tooltip-bottom .tooltip-arrow:before {
+    border-bottom-color: #fff !important;
+}
+
+.tooltip.bs-tooltip-top .tooltip-arrow:before {
+    border-top-color: #fff !important;
 }

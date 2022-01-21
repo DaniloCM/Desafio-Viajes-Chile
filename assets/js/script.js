@@ -10,10 +10,32 @@ $(function () {
     })
 
 
-    // Background en negro en el navbar cuando se hace scroll por primera vez
+    // Cambia el Background en negro en el navbar cuando se hace scroll por primera vez
     $(document).on("scroll", function () {
         $(".navbar").css('background-color', '#000');
     });
+
+    // Modal
+    $(".destacados-cards").click(function () {
+        
+        // Variables del HTML de cada parte (título, imagen y parrafo) del card
+        var titulo = $(this).find(".card-title").html()
+        var img = $(this).find(".card-img").html();
+        var parrafo = $(this).find(".card-text").html()
+
+        // Titulo del modal lo cambia por el titulo de la tarjeta en la que se hizo click
+        $(".modal-title").html(titulo)
+
+        // La imagen y parrafo del modal cambia según la tarjeta en la que se hizo click
+        $(".modal-body").html(`
+        ${img}
+        <br/><br/>
+        <p>
+            ${parrafo}
+        </p>
+        `);
+
+    })
 })
 
 
