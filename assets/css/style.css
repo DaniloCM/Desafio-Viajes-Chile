@@ -24,6 +24,11 @@ h1 {
     font-weight: 300;
 }
 
+.carousel-control-next,
+.carousel-control-prev{
+    z-index: auto;
+}
+
 
 /* Nosotros */
 #nosotros-section {

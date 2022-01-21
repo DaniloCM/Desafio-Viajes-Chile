@@ -15,6 +15,7 @@ $(function () {
         $(".navbar").css('background-color', '#000');
     });
 
+
     // Modal
     $(".destacados-cards").click(function () {
         
@@ -35,6 +36,12 @@ $(function () {
         </p>
         `);
 
+    })
+
+
+    // Al clickar el icono del navbar al encogerse el navbar, el fondo se vuelve negro
+    $(".navbar-toggler").click(function(){
+        $(".navbar").css("background", "#000");
     })
 })
 
