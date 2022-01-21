@@ -10,10 +10,16 @@ $(function () {
     })
 
 
-    // Cambia el Background en negro en el navbar cuando se hace scroll por primera vez
+    // Cambia el Background en negro en el navbar cuando el top de la pantalla esta mas abajo de los 100px
     $(document).on("scroll", function () {
-        $(".navbar").css('background-color', '#000');
+
+        // $(".navbar").css('background-color', '#000');
+        $(".navbar").toggleClass("bg-scroll", $(this).scrollTop() > 100);
+
+
     });
+
+
 
 
     // Modal
@@ -41,8 +47,12 @@ $(function () {
 
     // Al clickar el icono del navbar al encogerse el navbar, el fondo se vuelve negro
     $(".navbar-toggler").click(function(){
-        $(".navbar").css("background", "#000");
+
+        $(".navbar").toggleClass("bg-nav-expanded");
+    
     })
+
+
 })
 
 

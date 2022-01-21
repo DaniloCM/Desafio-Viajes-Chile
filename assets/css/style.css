@@ -14,6 +14,15 @@ h1 {
 .navbar {
     position: fixed;
     z-index: 1;
+    transition: 750ms ease;
+}
+
+.bg-scroll {
+    background-color: #000!important;
+}
+
+.bg-nav-expanded {
+    background-color: #000;
 }
 
 #logo-nav {
