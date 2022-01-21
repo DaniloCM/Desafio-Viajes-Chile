@@ -25,10 +25,17 @@ h1 {
 }
 
 .carousel-control-next,
-.carousel-control-prev{
+.carousel-control-prev {
     z-index: auto;
 }
 
+/* Hero */
+
+.carousel-item {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
 
 /* Nosotros */
 #nosotros-section {
